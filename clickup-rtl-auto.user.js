@@ -13,7 +13,7 @@
     'use strict';
 
     const fontLink = document.createElement('link');
-    fontLink.href = 'https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css';
+    fontLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/vazir-font/26.0.0/font-face.css';
     fontLink.rel = 'stylesheet';
     document.head.appendChild(fontLink);
 
