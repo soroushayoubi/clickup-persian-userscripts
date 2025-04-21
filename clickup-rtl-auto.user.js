@@ -20,6 +20,8 @@
     const style = document.createElement('style');
     style.innerHTML = `
         body, * {
+            unicode-bidi: plaintext;
+            text-align: start;
             font-family: Vazirmatn, -apple-system, BlinkMacSystemFont, "Segoe UI", roboto, "Helvetica Neue", helvetica, arial, sans-serif !important;
         }
     `;
