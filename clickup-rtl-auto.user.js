@@ -20,7 +20,7 @@
     const style = document.createElement('style');
     style.innerHTML = `
         body, * {
-            font-family: 'Vazir', sans-serif !important;
+            font-family: Vazirmatn, 'Vazir', -apple-system, BlinkMacSystemFont, "Segoe UI", roboto, "Helvetica Neue", helvetica, arial, sans-serif !important;;
         }
     `;
     document.head.appendChild(style);
